@@ -1,5 +1,7 @@
 # opener-docker-ner
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/cwolff/opener-docker-ner.svg)](https://hub.docker.com/r/cwolff/opener-docker-ner/)
+
 Dockerfile for OpeNER named-entity recognition service.
 
 Run and test locally:
