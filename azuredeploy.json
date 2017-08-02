@@ -4,7 +4,14 @@
     "parameters": {
         "location": {
             "defaultValue": "West US",
-            "type": "String"
+            "type": "String",
+            "allowedValues": [
+                "West Europe",
+                "Southeast Asia",
+                "West US",
+                "Japan East",
+                "Australia East"
+            ]
         },
         "site_name": {
             "defaultValue": "opener-ner",
@@ -12,7 +19,12 @@
         },
         "appserviceplan_size": {
             "defaultValue": "S2",
-            "type": "String"
+            "type": "String",
+            "allowedValues": [
+                "S1",
+                "S2",
+                "S3"
+            ]
         },
         "appserviceplan_name": {
             "defaultValue": "opener-ner-appservice-plan",
